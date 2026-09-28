@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: frontend-config
+
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Kubernetes Mini Project</title>
+    </head>
+    <body>
+      <h1>🚀 Kubernetes 3-Tier App</h1>
+      <p>Frontend: Nginx</p>
+      <p>Backend: API Service</p>
+      <p>Database: PostgreSQL</p>
+      <p>Ingress: Traefik</p>
+      <p>Running on K3s</p>
+    </body>
+    </html>
